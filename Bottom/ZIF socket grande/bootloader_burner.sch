@@ -10344,7 +10344,7 @@ Source: http://www.3M.com/ehpd</description>
 <wire x1="35.56" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="PIN_10_ARDUINO" class="0">
 <segment>
 <wire x1="38.1" y1="76.2" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
@@ -10357,7 +10357,7 @@ Source: http://www.3M.com/ehpd</description>
 <junction x="38.1" y="76.2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PIN_13_ARDUINO" class="0">
 <segment>
 <pinref part="ZX1" gate="G$1" pin="19"/>
 <wire x1="63.5" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
@@ -10366,7 +10366,7 @@ Source: http://www.3M.com/ehpd</description>
 <wire x1="91.44" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="PIN_12_ARDUINO" class="0">
 <segment>
 <pinref part="ZX1" gate="G$1" pin="18"/>
 <wire x1="63.5" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
@@ -10375,7 +10375,7 @@ Source: http://www.3M.com/ehpd</description>
 <wire x1="93.98" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="PIN_11_ARDUINO" class="0">
 <segment>
 <pinref part="ZX1" gate="G$1" pin="17"/>
 <wire x1="63.5" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>

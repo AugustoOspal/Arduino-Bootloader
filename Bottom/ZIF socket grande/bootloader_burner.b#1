@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -160,10 +160,8 @@
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYzliNzA2" projecturn="a.cGVyc29uYWw6dWUyYzliNzA2IzIwMjEwODEzNDM0MjE1OTc2" f3durn="urn:adsk.wipprod:dm.lineage:NdrcBdx2RI6fFtqdB9Zfdg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="fd65fdfe-d6cf-4d01-b78f-bd03a1775665" lastsyncedrevisionid="fd65fdfe-d6cf-4d01-b78f-bd03a1775665" lastboardhashguid="158e5ac1-184f-373b-de0d-126e714efa94" lastpushedtime="2021-08-14T02:56:49Z" linktopcb3d="true"/>
 <plain>
 <wire x1="11.557" y1="53.34" x2="11.557" y2="0" width="0" layer="20"/>
-<wire x1="11.557" y1="0" x2="66.04" y2="0" width="0" layer="20"/>
-<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0" layer="20"/>
-<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0" layer="20"/>
-<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0" layer="20"/>
+<wire x1="11.557" y1="0" x2="68.58" y2="0.254" width="0" layer="20"/>
+<wire x1="68.58" y1="0.254" x2="68.58" y2="37.846" width="0" layer="20"/>
 <wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0" layer="20"/>
 <wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0" layer="20"/>
 <wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0" layer="20"/>
@@ -171,6 +169,12 @@
 <text x="25.146" y="49.53" size="1.778" layer="16" rot="MR0">VCC</text>
 <text x="36.068" y="49.53" size="1.778" layer="16" rot="MR0">GND</text>
 <text x="52.832" y="43.18" size="1.778" layer="16" rot="MR0">10 / 11 / 12 / 13</text>
+<hole x="15.24" y="49.53" drill="0.1778"/>
+<hole x="63.246" y="50.038" drill="0.1778"/>
+<hole x="15.748" y="3.048" drill="0.1778"/>
+<hole x="66.04" y="2.54" drill="0.1778"/>
+<hole x="24.892" y="32.258" drill="0.1778"/>
+<hole x="49.53" y="39.37" drill="0.1778"/>
 </plain>
 <libraries>
 <library name="rcl">
