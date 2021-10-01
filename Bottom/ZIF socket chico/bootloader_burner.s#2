@@ -8970,27 +8970,27 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="P$17"/>
 <wire x1="91.44" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="20.32" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="10"/>
-<wire x1="91.44" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="20.32" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="7"/>
+<wire x1="91.44" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN12ARDUINO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$18"/>
 <wire x1="88.9" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="25.4" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="7"/>
-<wire x1="88.9" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="25.4" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="88.9" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN13ARDUINO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$19"/>
 <wire x1="86.36" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="30.48" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="86.36" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="30.48" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="86.36" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9016,11 +9016,13 @@ DIN A4, landscape with extra doc field</description>
 <net name="PIN10ARDUINO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$1"/>
-<wire x1="38.1" y1="76.2" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="76.2" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <junction x="38.1" y="76.2"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="38.1" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="88.9" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="10"/>
+<wire x1="99.06" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
